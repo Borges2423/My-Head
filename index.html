@@ -40,11 +40,28 @@
         </div>
     </header>
 
-    <div class="h-100 d-flex align-items-center justify-content-center">
-        <a href="./readme.html">
-            <img id="img" src="img/cabeca.jpg">
-        </a>
-    </div>
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <div class="hero-card">
+            <div class="avatar-wrapper">
+                <div class="avatar-inner">
+                    <a href="./readme.html" title="Clique para ver mais detalhes">
+                        <img id="img" src="img/cabeca.jpg" alt="Cabeça Girando">
+                    </a>
+                </div>
+            </div>
+            
+            <h1 class="hero-title"><span class="brand-text">My-Head</span> Project</h1>
+            <p class="hero-subtitle">Animação interativa 360° construída com HTML5, Bootstrap 5, CSS3 e GSAP.</p>
+            
+            <div class="d-flex flex-wrap justify-content-center gap-2 mb-2">
+                <button class="btn btn-outline-info control-btn" onclick="setSpeed(0.5)">0.5x</button>
+                <button class="btn btn-info control-btn text-dark" onclick="setSpeed(1)">1x Normal</button>
+                <button class="btn btn-outline-info control-btn" onclick="setSpeed(2.5)">2.5x Rápido</button>
+                <button class="btn btn-outline-warning control-btn" onclick="toggleAnimation()">Pausar / Play</button>
+            </div>
+        </div>
+    </main>
 
 
 
