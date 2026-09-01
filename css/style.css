@@ -123,3 +123,24 @@ header {
 .control-btn:hover {
     transform: translateY(-2px);
 }
+
+.contact-section {
+    background: rgba(15, 23, 42, 0.5);
+    border-top: 1px solid var(--card-border);
+}
+
+.contact-link {
+    border-radius: 50px;
+    padding: 0.5rem 1.25rem;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+.contact-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(56, 189, 248, 0.25);
+}
+
+.footer {
+    background: #020617;
+}
